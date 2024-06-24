@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <h1>Hello</h1>
-    <BrowserRouter>
+    <BrowserRouter basename="/test/">
       <Routes>
         <Route path="/image" element={<img src="/1.jpg" alt="myImg" />} />
       </Routes>
